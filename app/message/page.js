@@ -26,8 +26,8 @@ const MessageForm = () => {
   };
 
   return (
-    <div className='w-full h-full'>
-    <div className="mb-4">
+    <div className='w-full h-full flex items-center justify-center'>
+        <div className="mb-4">
           <Link href="/" className="text-blue-500 hover:underline">
             ← 戻る
           </Link>
