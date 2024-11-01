@@ -26,13 +26,13 @@ const MessageForm = () => {
   };
 
   return (
-    <div className='w-full h-full flex items-center justify-center'>
-        <div className="mb-4">
+    <div className='w-full h-full flex flex-col items-center justify-center'>
+        <div className="mt-20">
           <Link href="/" className="text-blue-500 hover:underline">
             ← 戻る
           </Link>
         </div>
-    <div className="w-full max-w-md mx-auto bg-white shadow-lg rounded-lg p-6 mt-40">
+    <div className="w-full max-w-md mx-auto bg-white shadow-lg rounded-lg p-6 mt-6">
       <h2 className="text-2xl font-bold text-center mb-6">メッセージフォーム</h2>
       
       <form onSubmit={handleSubmit} className="space-y-4">
